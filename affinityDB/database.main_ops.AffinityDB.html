@@ -1,0 +1,661 @@
+
+        <!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="../stylesheets/materialize.min.css" media="screen,projection" />
+    
+    
+  <link type="text/css" rel="stylesheet" href="../stylesheets/style.css">
+  <link type="text/css" rel="stylesheet" href="../stylesheets/default.css">
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<script>hljs.initHighlightingOnLoad();</script>
+    
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- UDF CSS -->
+  <link rel="stylesheet" href="../stylesheets/plot.css" type="text/css">
+  <!-- Load Font-->
+  <link rel="stylesheet"
+      href="//fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Material+Icons"
+</head>
+
+        <body>
+        <div class="nav-cont">
+          <ul id="slide-out" class="side-nav fixed">
+            <li><a class="waves-effect brand" href="#!">Affinity Api Doc</a></li>
+              <li class="no-padding">
+              <ul><li><a class="collapsible-header"  href="../index.html">index</a>
+</li>
+</ul>
+
+              
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold active">
+            <a class="collapsible-header waves-effect waves-teal active">database</a>
+            
+            <div class="collapsible-body" style="display: block">
+              <ul class="section table-of-contents" ><li><a href="database.html">Overview</a>
+</li>
+
+<li><a class="active"  href="database.main_ops.AffinityDB.html">AffinityDB</a>
+</li>
+
+<li><a href="database.master_ops.DatabaseMaster.html">DatabaseMaster</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="lib_multithread.html">Overview</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.activity_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="lib_multithread.activity_op.html">Overview</a>
+</li>
+
+<li><a href="lib_multithread.activity_op.Activity_init.html">Activity_init</a>
+</li>
+
+<li><a href="lib_multithread.activity_op.activity.html">activity</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.binidng_affinity_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="lib_multithread.binidng_affinity_op.html">Overview</a>
+</li>
+
+<li><a href="lib_multithread.binidng_affinity_op.Binidng_affinity_init.html">Binidng_affinity_init</a>
+</li>
+
+<li><a href="lib_multithread.binidng_affinity_op.binding_affinity.html">binding_affinity</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.blast_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="lib_multithread.blast_op.html">Overview</a>
+</li>
+
+<li><a href="lib_multithread.blast_op.Blast_init.html">Blast_init</a>
+</li>
+
+<li><a href="lib_multithread.blast_op.blast.html">blast</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.dock_chembl_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="lib_multithread.dock_chembl_op.html">Overview</a>
+</li>
+
+<li><a href="lib_multithread.dock_chembl_op.Dock_chembl_init.html">Dock_chembl_init</a>
+</li>
+
+<li><a href="lib_multithread.dock_chembl_op.dock_chembl.html">dock_chembl</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.dock_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="lib_multithread.dock_op.html">Overview</a>
+</li>
+
+<li><a href="lib_multithread.dock_op.Dock_init.html">Dock_init</a>
+</li>
+
+<li><a href="lib_multithread.dock_op.dock.html">dock</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.download_pdb_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="lib_multithread.download_pdb_op.html">Overview</a>
+</li>
+
+<li><a href="lib_multithread.download_pdb_op.Download_pdb_init.html">Download_pdb_init</a>
+</li>
+
+<li><a href="lib_multithread.download_pdb_op.download_pdb.html">download_pdb</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.generate_conformers_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="lib_multithread.generate_conformers_op.html">Overview</a>
+</li>
+
+<li><a href="lib_multithread.generate_conformers_op.Generate_conformers_init.html">Generate_conformers_init</a>
+</li>
+
+<li><a href="lib_multithread.generate_conformers_op.generate_conformers.html">generate_conformers</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.num_atoms_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="lib_multithread.num_atoms_op.html">Overview</a>
+</li>
+
+<li><a href="lib_multithread.num_atoms_op.Num_atoms_init.html">Num_atoms_init</a>
+</li>
+
+<li><a href="lib_multithread.num_atoms_op.num_atoms.html">num_atoms</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.pdb2mol_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="lib_multithread.pdb2mol_op.html">Overview</a>
+</li>
+
+<li><a href="lib_multithread.pdb2mol_op.Pdb2mol_init.html">Pdb2mol_init</a>
+</li>
+
+<li><a href="lib_multithread.pdb2mol_op.pdb2mol.html">pdb2mol</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.reorder_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="lib_multithread.reorder_op.html">Overview</a>
+</li>
+
+<li><a href="lib_multithread.reorder_op.Reorder_init.html">Reorder_init</a>
+</li>
+
+<li><a href="lib_multithread.reorder_op.reorder.html">reorder</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.save_record_tfr_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="lib_multithread.save_record_tfr_op.html">Overview</a>
+</li>
+
+<li><a href="lib_multithread.save_record_tfr_op.save_record_tfr.html">save_record_tfr</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.search_decoys_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="lib_multithread.search_decoys_op.html">Overview</a>
+</li>
+
+<li><a href="lib_multithread.search_decoys_op.Search_decoys_init.html">Search_decoys_init</a>
+</li>
+
+<li><a href="lib_multithread.search_decoys_op.get_decoys.html">get_decoys</a>
+</li>
+
+<li><a href="lib_multithread.search_decoys_op.search_decoys.html">search_decoys</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.smi2pdb_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="lib_multithread.smi2pdb_op.html">Overview</a>
+</li>
+
+<li><a href="lib_multithread.smi2pdb_op.Smi2pdb_init.html">Smi2pdb_init</a>
+</li>
+
+<li><a href="lib_multithread.smi2pdb_op.pdb2mol.html">pdb2mol</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.split_pdb_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="lib_multithread.split_pdb_op.html">Overview</a>
+</li>
+
+<li><a href="lib_multithread.split_pdb_op.Split_pdb_init.html">Split_pdb_init</a>
+</li>
+
+<li><a href="lib_multithread.split_pdb_op.split_pdb.html">split_pdb</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.test_img_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="lib_multithread.test_img_op.html">Overview</a>
+</li>
+
+<li><a href="lib_multithread.test_img_op.Test_img_init.html">Test_img_init</a>
+</li>
+
+<li><a href="lib_multithread.test_img_op.test_img.html">test_img</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.test_multout_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="lib_multithread.test_multout_op.html">Overview</a>
+</li>
+
+<li><a href="lib_multithread.test_multout_op.Test_multout_init.html">Test_multout_init</a>
+</li>
+
+<li><a href="lib_multithread.test_multout_op.test_multout.html">test_multout</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.test_sum_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="lib_multithread.test_sum_op.html">Overview</a>
+</li>
+
+<li><a href="lib_multithread.test_sum_op.Test_sum_init.html">Test_sum_init</a>
+</li>
+
+<li><a href="lib_multithread.test_sum_op.test_sum.html">test_sum</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+              </li>
+          </ul>
+        </div>
+        
+        <div class="main-cont" >
+        <div class="row cube" >
+          <div class="col s12 m12">
+            <div class="card scrollspy " >
+              <div class="card-content">
+                <span class="card-title"></span>
+                  <h2>Class:database.main_ops.AffinityDB</h2>
+<br>Defined in <a href="https://github.com/mitaffinity/open-database/tree/master/affinityDB/main_ops.py">main_ops.py</a><br><h3>database.main_ops.AffinityDB.__init__</h3>
+<pre lang="python">
+<code class="python">
+__init__(
+	self,
+	db_root,
+	db_name,
+)</code>
+</pre>
+<div class="section" >Initialize database<br></div>
+
+<div class="divider"></div>
+<div class="section" ><b>Args</b>
+<br><ul><li><b><code>db_root</code>
+</b>
+:root dir for all the data</li>
+
+<li><b><code>db_name</code>
+</b>
+:name of the sqlite db file</li>
+</ul></div>
+
+<div class="divider"></div>
+<div class="section" ><b>Returns</b>
+<br><ul><li>None</li>
+</ul></div>
+<h3>database.main_ops.AffinityDB.coninue</h3>
+<pre lang="python">
+<code class="python">
+coninue(
+	self,
+	arg_table,
+	num_threads,
+	commit_sec,
+)</code>
+</pre>
+<div class="section" >Continue the interrupted run_multithread function.<br><br><b>Example:</b>
+<br><pre lang="python">
+<code class="python">
+<br>continue('arg_000_download_pdb',100,60)<br></code>
+</pre><br></div>
+
+<div class="divider"></div>
+<div class="section" ><b>Args</b>
+<br><ul><li><b><code>arg_table</code>
+</b>
+:string (name of the sqlite table with arguments of the function to run)</li>
+
+<li><b><code>num_threads</code>
+</b>
+:integer (number of processes)</li>
+
+<li><b><code>commit_sec</code>
+</b>
+:integer (write outputs to the database every number of tasks)</li>
+</ul></div>
+
+<div class="divider"></div>
+<div class="section" ><b>Returns</b>
+<br><ul><li>None</li>
+</ul></div>
+<h3>database.main_ops.AffinityDB.open_table_with_queue</h3>
+<pre lang="python">
+<code class="python">
+open_table_with_queue(
+	self,
+	table_name,
+	col_names,
+	col_types,
+	commit_sec=1,
+)</code>
+</pre>
+<div class="section" >Creates an output table, and a queue to feed this table. Creates a background thread to take results<br>from the queue and insert into the table.<br><br><b>Example:</b>
+<br><pre lang="python">
+<code class="python">
+<br>out_q,stop_event = afdb.open_table_with_queue(table_name="some_table",col_names=["num"],col_types=[int])<br>zsh<br>for i in range(1000):<br>    out_q.put([i])<br>stop_event.set()<br></code>
+</pre><br></div>
+
+<div class="divider"></div>
+<div class="section" ><b>Args</b>
+<br><ul><li><b><code>table_name</code>
+</b>
+:string (name of the table prefix out_xxx_ will be appended)</li>
+
+<li><b><code>col_names</code>
+</b>
+:list of strings (names of the columns)</li>
+
+<li><b><code>col_types</code>
+</b>
+:list of python types (column types)</li>
+</ul></div>
+
+<div class="divider"></div>
+<div class="section" ><b>Returns</b>
+<br><ul><li>multiprocessing queue: event to close the table and terminate thread.</li>
+</ul></div>
+<h3>database.main_ops.AffinityDB.run_multithread</h3>
+<pre lang="python">
+<code class="python">
+run_multithread(
+	self,
+	func,
+	arg_sets,
+	num_threads=10,
+	commit_sec=1,
+)</code>
+</pre>
+<div class="section" >Run any function in lib_multithread in multiple threads.<br>Writes all arguments to `arg_xxx_func` table, record outputs to `out_xxx_table`. Record state of the function's<br>initializer to cron table.<br>If the task is interrupted in the process of execution, it is possible to resume with `AffinityDB.continue(*)`<br><br><b>Example:</b>
+<br><pre lang="python">
+<code class="python">
+<br>run_multithread('download',[['10MD','3EML']])<br></code>
+</pre><br></div>
+
+<div class="divider"></div>
+<div class="section" ><b>Args</b>
+<br><ul><li><b><code>func</code>
+</b>
+:string (a name of the function to execute)</li>
+
+<li><b><code>arg_sets</code>
+</b>
+:lits of tuples (every tuple is an argument set for a single run of a function)</li>
+
+<li><b><code>num_threads</code>
+</b>
+:integer (number of independent processes)</li>
+
+<li><b><code>commit_sec</code>
+</b>
+:integer (time delay in flushing outputs to the arg_ and out_ tables)</li>
+</ul></div>
+
+<div class="divider"></div>
+<div class="section" ><b>Returns</b>
+<br><ul><li>None</li>
+</ul></div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+</body>
+
+        
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="../js/materialize.min.js"></script>
+
+<!-- Init JS component for materialize     -->
+    <script>hljs.initHighlightingOnLoad();</script>
+<script>
+   function show_doc(obj){
+    
+     var idx = $(obj).attr("href").substr(1);
+     
+     var cards = $(".cube")
+
+
+     for (var i=0;i<cards.length;i++){
+      if (cards[i].id==idx){
+        $(cards[i]).css('display','block');
+      }
+      else{
+        $(cards[i]).css('display','none');
+      }
+     }
+     
+          var as = $(".table-of-contents a");
+     for (var i=0;i<as.length;i++){
+       if (as[i] == obj){
+         $(as[i]).attr("class","active");
+
+       }
+       else{
+          $(as[i]).attr("class","");
+       }
+     }
+     
+     
+
+  }
+</script>
+<script>
+    $(document).ready(function () {
+        $('ul.tabs').tabs();
+    });
+    
+    
+  // Initialize collapse button
+  $(".button-collapse").sideNav();
+  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+  //$('.collapsible').collapsible();
+    
+      $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+
+
+</script>
+<!-- D3 Js -->
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<!-- User defined Js function -->
+<script src="js/plot.js"></script>
+<!-- Getting data and plot curve  -->
+<script>
+    var xData = [0.2, 0.3, 0.5, 0.6, 0.7, 0.8];
+    var yData = [0.4, 0.6, 0.7, 0.5, 0.9, 0.2];
+    var data = zip_data(xData, yData);
+
+    d3.csv('data/data.csv',function(data){
+        plot_roc(data)
+
+    })
+    //        plot_roc(data);
+</script>
+</body>
+
+</html>
+        

@@ -1,0 +1,84 @@
+.main-cont {
+    padding-left: 300px;
+}
+
+.table-of-contents a.active{
+    font-weight: 500;
+    color:#ee6e73;
+    border-left: 0;
+    border-right: 5px solid #ee6e73;
+    
+}
+
+.brand{
+    
+    padding-left:16px;
+   
+}
+
+h2.header{
+    color:#ee6e73;
+    padding-left:10px;
+    font-weight: lighter;
+}
+
+h2{
+    font-weight: lighter;
+}
+
+.table-of-contents a{
+    font-weight: 400;
+}
+
+.cube h2{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cube h3{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'myrobot';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Roboto Italic'), local('Roboto-Italic'), url(http://fonts.gstatic.com/s/roboto/v18/WxrXJa0C3KdtC7lMafG4dRkAz4rYn47Zy2rvigWQf6w.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+
+body{font: myrobot;}
+
+.side-nav{
+    width: 270px;
+    height: 70%;
+}
+
+.side-nav.fixed {
+    left: 20px;
+    top: 100px;
+    
+
+}
+.side-nav li > a.brand{
+    color:#ffffff;
+    background: #ee6e73;
+
+}
+
+.section{
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+
+.card .card-content{
+    padding:12px;
+}
+
+pre {
+    margin:0;
+}

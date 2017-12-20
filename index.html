@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+        <!DOCTYPE html>
 <html>
 
 <head>
@@ -6,77 +7,665 @@
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="stylesheets/materialize.min.css" media="screen,projection" />
+    
+    
+  <link type="text/css" rel="stylesheet" href="stylesheets/style.css">
+  <link type="text/css" rel="stylesheet" href="stylesheets/default.css">
+  <script type="text/javascript" src="js/highlight.pack.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+<script>hljs.initHighlightingOnLoad();</script>
+    
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- UDF CSS -->
   <link rel="stylesheet" href="stylesheets/plot.css" type="text/css">
+  <!-- Load Font-->
+  <link rel="stylesheet"
+      href="//fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Material+Icons"
 </head>
 
-<body>
+        <body>
+        <div class="nav-cont">
+          <ul id="slide-out" class="side-nav fixed">
+            <li><a class="waves-effect brand" href="#!">Affinity Api Doc</a></li>
+              <li class="no-padding">
+              <ul><li><a class="collapsible-header"  href="#">Index</a>
+</li>
+</ul>
 
-<nav class="nav-extended  udf-nav">
-  <div class="nav-wrapper">
-    <a href="#" class="brand-logo">Affinity</a>
-    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons"></i></a>
+              
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">database</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="affinityDB/database.html">Overview</a>
+</li>
 
+<li><a href="affinityDB/database.main_ops.AffinityDB.html">AffinityDB</a>
+</li>
 
-    <div class="row">
-      <div class="col s8 offset-s4">
-        <ul class="tabs tabs-transparent">
-          <li class="tab"><a href="#test1">ROC</a></li>
-          <li class="tab"><a class="active" href="#test2">Content</a></li>
-          <li class="tab disabled"><a href="#test3">Disabled Tab</a></li>
-          <li class="tab"><a href="#test4">Test 4</a></li>
+<li><a href="affinityDB/database.master_ops.DatabaseMaster.html">DatabaseMaster</a>
+</li>
+</ul>
+
+            </div>
+          </li>
         </ul>
-      </div>
 
-    </div>
-  </div>
+        
 
-</nav>
-<div id="test1" class="row">
-  <div class="row">
-    <div class="col s12 m8 offset-m2">
-      <div class="card">
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="affinityDB/lib_multithread.html">Overview</a>
+</li>
+</ul>
 
-        <div class="card-content">
-          <p class="card-title activator grey-text text-darken-4">ROC </p>
+            </div>
+          </li>
+        </ul>
 
-          <plot>
-          </plot>
-          <p>Discription for the Curve</p>
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.activity_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="affinityDB/lib_multithread.activity_op.html">Overview</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.activity_op.Activity_init.html">Activity_init</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.activity_op.activity.html">activity</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.binidng_affinity_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="affinityDB/lib_multithread.binidng_affinity_op.html">Overview</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.binidng_affinity_op.Binidng_affinity_init.html">Binidng_affinity_init</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.binidng_affinity_op.binding_affinity.html">binding_affinity</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.blast_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="affinityDB/lib_multithread.blast_op.html">Overview</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.blast_op.Blast_init.html">Blast_init</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.blast_op.blast.html">blast</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.dock_chembl_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="affinityDB/lib_multithread.dock_chembl_op.html">Overview</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.dock_chembl_op.Dock_chembl_init.html">Dock_chembl_init</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.dock_chembl_op.dock_chembl.html">dock_chembl</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.dock_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="affinityDB/lib_multithread.dock_op.html">Overview</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.dock_op.Dock_init.html">Dock_init</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.dock_op.dock.html">dock</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.download_pdb_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="affinityDB/lib_multithread.download_pdb_op.html">Overview</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.download_pdb_op.Download_pdb_init.html">Download_pdb_init</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.download_pdb_op.download_pdb.html">download_pdb</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.generate_conformers_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="affinityDB/lib_multithread.generate_conformers_op.html">Overview</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.generate_conformers_op.Generate_conformers_init.html">Generate_conformers_init</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.generate_conformers_op.generate_conformers.html">generate_conformers</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.num_atoms_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="affinityDB/lib_multithread.num_atoms_op.html">Overview</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.num_atoms_op.Num_atoms_init.html">Num_atoms_init</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.num_atoms_op.num_atoms.html">num_atoms</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.pdb2mol_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="affinityDB/lib_multithread.pdb2mol_op.html">Overview</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.pdb2mol_op.Pdb2mol_init.html">Pdb2mol_init</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.pdb2mol_op.pdb2mol.html">pdb2mol</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.reorder_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="affinityDB/lib_multithread.reorder_op.html">Overview</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.reorder_op.Reorder_init.html">Reorder_init</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.reorder_op.reorder.html">reorder</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.save_record_tfr_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="affinityDB/lib_multithread.save_record_tfr_op.html">Overview</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.save_record_tfr_op.save_record_tfr.html">save_record_tfr</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.search_decoys_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="affinityDB/lib_multithread.search_decoys_op.html">Overview</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.search_decoys_op.Search_decoys_init.html">Search_decoys_init</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.search_decoys_op.get_decoys.html">get_decoys</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.search_decoys_op.search_decoys.html">search_decoys</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.smi2pdb_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="affinityDB/lib_multithread.smi2pdb_op.html">Overview</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.smi2pdb_op.Smi2pdb_init.html">Smi2pdb_init</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.smi2pdb_op.pdb2mol.html">pdb2mol</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.split_pdb_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="affinityDB/lib_multithread.split_pdb_op.html">Overview</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.split_pdb_op.Split_pdb_init.html">Split_pdb_init</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.split_pdb_op.split_pdb.html">split_pdb</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.test_img_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="affinityDB/lib_multithread.test_img_op.html">Overview</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.test_img_op.Test_img_init.html">Test_img_init</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.test_img_op.test_img.html">test_img</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.test_multout_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="affinityDB/lib_multithread.test_multout_op.html">Overview</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.test_multout_op.Test_multout_init.html">Test_multout_init</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.test_multout_op.test_multout.html">test_multout</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold">
+            <a class="collapsible-header waves-effect waves-teal">lib_multithread.test_sum_op</a>
+            
+            <div class="collapsible-body">
+              <ul class="section table-of-contents" ><li><a href="affinityDB/lib_multithread.test_sum_op.html">Overview</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.test_sum_op.Test_sum_init.html">Test_sum_init</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.test_sum_op.test_sum.html">test_sum</a>
+</li>
+</ul>
+
+            </div>
+          </li>
+        </ul>
+
+        
+              </li>
+          </ul>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div id="test2" class="col s8">
-  <div class="row">
-    <div class="col s12 m8 offset-m2">
-      <div class="card">
+        
+        <div class="main-cont" >
+        <div class="row cube" >
+          <div class="col s12 m12">
+            <div class="card scrollspy " >
+              <div class="card-content">
+                <span class="card-title"></span>
+                  <h2>Index</h2>
+<b>lib_multithread.smi2pdb_op</b>
+<ul><li><a href="affinityDB/lib_multithread.smi2pdb_op.pdb2mol.html">pdb2mol</a>
+</li>
 
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Title </span>
-          <p>Content</p>
+<li><a href="affinityDB/lib_multithread.smi2pdb_op.Smi2pdb_init.html">Smi2pdb_init</a>
+</li>
+</ul><b>lib_multithread.test_img_op</b>
+<ul><li><a href="affinityDB/lib_multithread.test_img_op.test_img.html">test_img</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.test_img_op.Test_img_init.html">Test_img_init</a>
+</li>
+</ul><b>lib_multithread.dock_chembl_op</b>
+<ul><li><a href="affinityDB/lib_multithread.dock_chembl_op.dock_chembl.html">dock_chembl</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.dock_chembl_op.Dock_chembl_init.html">Dock_chembl_init</a>
+</li>
+</ul><b>lib_multithread.test_sum_op</b>
+<ul><li><a href="affinityDB/lib_multithread.test_sum_op.test_sum.html">test_sum</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.test_sum_op.Test_sum_init.html">Test_sum_init</a>
+</li>
+</ul><b>lib_multithread.activity_op</b>
+<ul><li><a href="affinityDB/lib_multithread.activity_op.activity.html">activity</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.activity_op.Activity_init.html">Activity_init</a>
+</li>
+</ul><b>lib_multithread.dock_op</b>
+<ul><li><a href="affinityDB/lib_multithread.dock_op.dock.html">dock</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.dock_op.Dock_init.html">Dock_init</a>
+</li>
+</ul><b>lib_multithread.download_pdb_op</b>
+<ul><li><a href="affinityDB/lib_multithread.download_pdb_op.download_pdb.html">download_pdb</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.download_pdb_op.Download_pdb_init.html">Download_pdb_init</a>
+</li>
+</ul><b>lib_multithread.blast_op</b>
+<ul><li><a href="affinityDB/lib_multithread.blast_op.blast.html">blast</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.blast_op.Blast_init.html">Blast_init</a>
+</li>
+</ul><b>lib_multithread.save_record_tfr_op</b>
+<ul><li><a href="affinityDB/lib_multithread.save_record_tfr_op.save_record_tfr.html">save_record_tfr</a>
+</li>
+</ul><b>lib_multithread.generate_conformers_op</b>
+<ul><li><a href="affinityDB/lib_multithread.generate_conformers_op.generate_conformers.html">generate_conformers</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.generate_conformers_op.Generate_conformers_init.html">Generate_conformers_init</a>
+</li>
+</ul><b>lib_multithread.pdb2mol_op</b>
+<ul><li><a href="affinityDB/lib_multithread.pdb2mol_op.pdb2mol.html">pdb2mol</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.pdb2mol_op.Pdb2mol_init.html">Pdb2mol_init</a>
+</li>
+</ul><b>lib_multithread.reorder_op</b>
+<ul><li><a href="affinityDB/lib_multithread.reorder_op.reorder.html">reorder</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.reorder_op.Reorder_init.html">Reorder_init</a>
+</li>
+</ul><b>lib_multithread.split_pdb_op</b>
+<ul><li><a href="affinityDB/lib_multithread.split_pdb_op.split_pdb.html">split_pdb</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.split_pdb_op.Split_pdb_init.html">Split_pdb_init</a>
+</li>
+</ul><b>lib_multithread.test_multout_op</b>
+<ul><li><a href="affinityDB/lib_multithread.test_multout_op.test_multout.html">test_multout</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.test_multout_op.Test_multout_init.html">Test_multout_init</a>
+</li>
+</ul><b>lib_multithread.num_atoms_op</b>
+<ul><li><a href="affinityDB/lib_multithread.num_atoms_op.num_atoms.html">num_atoms</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.num_atoms_op.Num_atoms_init.html">Num_atoms_init</a>
+</li>
+</ul><b>lib_multithread</b>
+<ul><li><a href="affinityDB/lib_multithread.blast_op.html">blast_op</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.test_multout_op.html">test_multout_op</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.download_pdb_op.html">download_pdb_op</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.generate_conformers_op.html">generate_conformers_op</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.pdb2mol_op.html">pdb2mol_op</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.num_atoms_op.html">num_atoms_op</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.split_pdb_op.html">split_pdb_op</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.activity_op.html">activity_op</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.dock_op.html">dock_op</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.reorder_op.html">reorder_op</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.search_decoys_op.html">search_decoys_op</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.save_record_tfr_op.html">save_record_tfr_op</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.dock_chembl_op.html">dock_chembl_op</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.test_sum_op.html">test_sum_op</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.test_img_op.html">test_img_op</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.binidng_affinity_op.html">binidng_affinity_op</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.smi2pdb_op.html">smi2pdb_op</a>
+</li>
+</ul><b>database</b>
+<ul><li><a href="affinityDB/database.main_ops.AffinityDB.html">AffinityDB</a>
+</li>
+
+<li><a href="affinityDB/database.master_ops.DatabaseMaster.html">DatabaseMaster</a>
+</li>
+
+<li><a href="affinityDB/database.main_ops.html">main_ops</a>
+</li>
+
+<li><a href="affinityDB/database.master_ops.html">master_ops</a>
+</li>
+</ul><b>lib_multithread.search_decoys_op</b>
+<ul><li><a href="affinityDB/lib_multithread.search_decoys_op.get_decoys.html">get_decoys</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.search_decoys_op.search_decoys.html">search_decoys</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.search_decoys_op.Search_decoys_init.html">Search_decoys_init</a>
+</li>
+</ul><b>lib_multithread.binidng_affinity_op</b>
+<ul><li><a href="affinityDB/lib_multithread.binidng_affinity_op.binding_affinity.html">binding_affinity</a>
+</li>
+
+<li><a href="affinityDB/lib_multithread.binidng_affinity_op.Binidng_affinity_init.html">Binidng_affinity_init</a>
+</li>
+</ul>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div id="test3" class="col s8">Test 3</div>
-<div id="test4" class="col s8">Test 4</div>
+        </div>
+</body>
 
-
-
+        
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
+
 <!-- Init JS component for materialize     -->
+    <script>hljs.initHighlightingOnLoad();</script>
+<script>
+   function show_doc(obj){
+    
+     var idx = $(obj).attr("href").substr(1);
+     
+     var cards = $(".cube")
+
+
+     for (var i=0;i<cards.length;i++){
+      if (cards[i].id==idx){
+        $(cards[i]).css('display','block');
+      }
+      else{
+        $(cards[i]).css('display','none');
+      }
+     }
+     
+          var as = $(".table-of-contents a");
+     for (var i=0;i<as.length;i++){
+       if (as[i] == obj){
+         $(as[i]).attr("class","active");
+
+       }
+       else{
+          $(as[i]).attr("class","");
+       }
+     }
+     
+     
+
+  }
+</script>
 <script>
     $(document).ready(function () {
         $('ul.tabs').tabs();
     });
+    
+    
+  // Initialize collapse button
+  $(".button-collapse").sideNav();
+  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+  //$('.collapsible').collapsible();
+    
+      $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+
+
 </script>
 <!-- D3 Js -->
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -97,3 +686,4 @@
 </body>
 
 </html>
+        
