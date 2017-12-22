@@ -55,12 +55,12 @@ body{font: myrobot;}
 
 .side-nav{
     width: 270px;
-    height: 70%;
+    height: 100%;
 }
 
 .side-nav.fixed {
     left: 20px;
-    top: 100px;
+    top: 0px;
     
 
 }
